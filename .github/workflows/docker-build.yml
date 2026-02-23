@@ -6,7 +6,6 @@ on:
         description: "Release tag"
         required: true
         type: string
-
 env:
   GHCR_REGISTRY: ghcr.io
   GHCR_IMAGE_NAME: ${{ github.repository_owner }}/picoclaw
